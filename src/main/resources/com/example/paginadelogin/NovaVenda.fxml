@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="934.0" style="-fx-background-color: #3d4545;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="66.0" prefWidth="934.0" style="-fx-background-color: #f0f3f5;">
+         <children>
+            <Label alignment="CENTER" layoutX="74.0" layoutY="15.0" prefHeight="35.0" prefWidth="175.0" text="Nova Venda">
+               <font>
+                  <Font name="Calibri Light" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="40.0" fitWidth="52.0" layoutX="19.0" layoutY="15.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/8212731.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="861.0" layoutY="3.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/994737.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f0f3f5" height="456.0" layoutX="55.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" width="826.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="120.0" prefHeight="46.0" prefWidth="826.0" style="-fx-background-color: #3d4545;" text="PREENCHA ABAIXO OS DADOS DA VENDA" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="219.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #3d4545;" text="Cliente:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="264.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #3d4545;" text="Produto:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="308.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #3d4545;" text="Quantidade:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="108.0" layoutY="351.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #3d4545;" text="Valor Unitário:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="218.0" layoutY="351.0" prefHeight="35.0" prefWidth="215.0" />
+      <Label alignment="CENTER" layoutX="108.0" layoutY="397.0" prefHeight="35.0" prefWidth="103.0" style="-fx-background-color: #3d4545;" text="Valor Total:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="218.0" layoutY="397.0" prefHeight="35.0" prefWidth="215.0" />
+      <ComboBox layoutX="218.0" layoutY="219.0" prefHeight="35.0" prefWidth="215.0" />
+      <ComboBox layoutX="218.0" layoutY="264.0" prefHeight="35.0" prefWidth="215.0" />
+      <Spinner layoutX="218.0" layoutY="308.0" prefHeight="35.0" prefWidth="215.0" />
+      <Button layoutX="181.0" layoutY="450.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="144.0" style="-fx-background-color: #4998de;" text="ADICIONAR ITEM" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Button>
+      <TableView layoutX="573.0" layoutY="206.0" prefHeight="238.0" prefWidth="253.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item1" />
+          <TableColumn prefWidth="75.0" text="Item2" />
+        </columns>
+      </TableView>
+      <Button layoutX="627.0" layoutY="450.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="144.0" style="-fx-background-color: #328a28;" text="FINALIZAR VENDA" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

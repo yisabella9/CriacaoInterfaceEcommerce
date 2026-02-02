@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="934.0" style="-fx-background-color: #3d4545;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="66.0" prefWidth="934.0" style="-fx-background-color: #f0f3f5;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="52.0" layoutX="14.0" layoutY="13.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/8212731.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="66.0" layoutY="18.0" prefHeight="35.0" prefWidth="268.0" text="Relatório de Vendas">
+               <font>
+                  <Font name="Calibri Light" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="51.0" fitWidth="52.0" layoutX="876.0" layoutY="11.0">
+               <image>
+                  <Image url="@../../../../../../../../../../Downloads/1395482.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#f0f3f5" height="423.0" layoutX="172.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="591.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+   </children>
+</Pane>
