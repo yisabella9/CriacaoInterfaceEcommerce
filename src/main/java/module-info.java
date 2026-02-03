@@ -4,5 +4,7 @@ module com.example.paginadelogin {
 
 
     opens com.example.paginadelogin to javafx.fxml;
+    opens com.example.paginadelogin.controller to javafx.fxml;
+
     exports com.example.paginadelogin;
 }
